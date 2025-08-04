@@ -33,5 +33,8 @@ public class MyMain {
         System.out.println(i7);
         System.out.println(i8);
         System.out.println(i5 + l3);
+
+        int i9 = (i6 / (i5 + 1)) * 2;
+        System.out.println(i9);
     }
 }
