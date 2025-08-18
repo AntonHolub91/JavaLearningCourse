@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 3 homework">
+    <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/MyOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/operators/MyOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/methods_arrays/MyArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/methods_arrays/MyArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +33,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MyArrays.executor": "Run",
     "Application.MyClass.executor": "Run",
     "Application.MyMain.executor": "Run",
     "Application.MyOperators.executor": "Run",
     "Application.lesson3.operators.MyOperators.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -121,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755075563296</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson 4 homework">
+      <option name="closed" value="true" />
+      <created>1755499583459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755499583459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3 homework" />
+    <MESSAGE value="Lesson 4 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 4 homework" />
   </component>
 </project>
