@@ -1,10 +1,10 @@
-package lesson3;
+package lesson3.operators;
 
 import java.util.Scanner;
 
 public class MyOperators {
     public static void main(String[] args) {
-        showMultiplicationTable();
+        showFibonacciSequence();
     }
 
     // 1 Написать программу для вывода названия поры года по номеру месяца.
