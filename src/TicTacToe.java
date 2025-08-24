@@ -50,7 +50,6 @@ public class TicTacToe {
         }
         return false;
     }
-
 }
 
 class Player {
@@ -58,15 +57,24 @@ class Player {
     int playerNum;
     String value;
 
-    Player(String value) {
+    public Player(String value) {
         counter++;
         this.playerNum = counter;
         this.value = value;
     }
 
     public void makeMove(Scanner scanner, String[][] field) {
-        System.out.print("Player " + playerNum + ", select slot to occupy: ");
-        String slot = String.valueOf(scanner.nextInt()).toUpperCase();
+        int input;
+        while(true) {
+            System.out.print("Player " + playerNum + ", select slot to occupy: ");
+            input = scanner.nextInt();
+            if (input >= 1 && input <= 9) {
+                break;
+            }
+            System.out.println("Slot doesn't exist.");
+        }
+
+        String slot = String.valueOf(input);
         for (int i = 0; i < field.length; i++) {
             for (int j = 0; j < field[i].length; j++) {
                 if (field[i][j].equals(slot)) {
