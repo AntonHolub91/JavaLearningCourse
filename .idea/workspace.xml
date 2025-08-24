@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/methods_oop/homework/Bankomat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/methods_oop/homework/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/methods_oop/homework/CreditCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson4/methods_arrays/MyArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/methods_arrays/MyArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/methods_oop/GuessWordGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessWordGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/methods_oop/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/methods_oop/myMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,34 +34,99 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="30pRIdmQCGSMCI5jreA6cw7vEhy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CreditCard.executor": "Run",
+    "Application.GuessWordGame.executor": "Run",
+    "Application.KrestikiNoliki (1).executor": "Run",
+    "Application.KrestikiNoliki (2).executor": "Run",
+    "Application.KrestikiNoliki.executor": "Run",
     "Application.MyArrays.executor": "Run",
     "Application.MyClass.executor": "Run",
+    "Application.MyHomework.executor": "Run",
     "Application.MyMain.executor": "Run",
     "Application.MyOperators.executor": "Run",
+    "Application.MyTasks.executor": "Run",
+    "Application.Test (1).executor": "Run",
+    "Application.Test (2).executor": "Run",
+    "Application.Test (3).executor": "Run",
+    "Application.Test (4).executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestBankomat (1).executor": "Run",
+    "Application.TestBankomat (2).executor": "Run",
+    "Application.TestBankomat (3).executor": "Run",
+    "Application.TestBankomat (4).executor": "Run",
+    "Application.TestBankomat (5).executor": "Run",
+    "Application.TestBankomat.executor": "Run",
+    "Application.TestBankomat2 (1).executor": "Run",
+    "Application.TestBankomat2 (2).executor": "Run",
+    "Application.TestBankomat2 (3).executor": "Run",
+    "Application.TestBankomat2 (4).executor": "Run",
+    "Application.TestBankomat2 (5).executor": "Run",
+    "Application.TestBankomat2.executor": "Run",
+    "Application.TestComputer (1).executor": "Run",
+    "Application.TestComputer (2).executor": "Run",
+    "Application.TestComputer (3).executor": "Run",
+    "Application.TestComputer (4).executor": "Run",
+    "Application.TestComputer (5).executor": "Run",
+    "Application.TestComputer.executor": "Run",
+    "Application.Tests.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
     "Application.lesson3.operators.MyOperators.executor": "Run",
+    "Application.lesson5.multidimensional_array.MyMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/anton.holub/Documents/Programming/Java learning/JavaLearningCourse/src/lesson6/methods_oop/homework",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyArrays">
-    <configuration name="MyArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.methods_arrays.MyArrays" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lesson6/methods_oop/homework" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lesson6.methods_oop.homework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TicTacToe">
+    <configuration name="KrestikiNoliki (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KrestikiNoliki" />
+      <module name="JavaLearningCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KrestikiNoliki (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KrestikiNoliki" />
+      <module name="JavaLearningCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KrestikiNoliki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KrestikiNoliki" />
+      <module name="JavaLearningCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBankomat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.methods_oop.homework.TestBankomat" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.methods_arrays.*" />
+          <option name="PATTERN" value="lesson6.methods_oop.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,45 +134,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyMain" />
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
       <module name="JavaLearningCourse" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.MyOperators" />
-      <module name="JavaLearningCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson3.operators.MyOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.operators.MyOperators" />
-      <module name="JavaLearningCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.operators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyArrays" />
-        <item itemvalue="Application.lesson3.operators.MyOperators" />
-        <item itemvalue="Application.MyMain" />
-        <item itemvalue="Application.MyOperators" />
+        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.KrestikiNoliki" />
+        <item itemvalue="Application.KrestikiNoliki (2)" />
+        <item itemvalue="Application.KrestikiNoliki (1)" />
+        <item itemvalue="Application.TestBankomat" />
       </list>
     </recent_temporary>
   </component>

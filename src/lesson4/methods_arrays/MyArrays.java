@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MyArrays {
     public static void main(String[] args) {
-        sortBubble();
+        showNumberIsInArray();
     }
 
     // 0 Создайте массив целых чисел. Напишете программу, которая выводит
@@ -237,7 +237,7 @@ public class MyArrays {
                     int num = array[j - 1];
                     array[j - 1] = array[j];
                     array[j] = num;
-                    System.out.println(array [j] + " swapped with " + array[j - 1] + ", updated array is " + Arrays.toString(array));
+                    System.out.println(array[j] + " swapped with " + array[j - 1] + ", updated array is " + Arrays.toString(array));
                 }
             }
         }
