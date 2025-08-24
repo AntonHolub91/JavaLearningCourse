@@ -54,6 +54,7 @@ public class TicTacToe {
 
 class Player {
     static int counter;
+    static String playersSlots = "";
     int playerNum;
     String value;
 
@@ -65,13 +66,25 @@ class Player {
 
     public void makeMove(Scanner scanner, String[][] field) {
         int input;
+        boolean slotIsVacant = false;
         while(true) {
             System.out.print("Player " + playerNum + ", select slot to occupy: ");
             input = scanner.nextInt();
+
             if (input >= 1 && input <= 9) {
-                break;
+                for (int i = 0; i < field.length; i++) {
+                    for (int j = 0; j < field[i].length; j++) {
+                        if (field[i][j].equals(String.valueOf(input))) {
+                            slotIsVacant = true;
+                            break;
+                        }
+                    }
+                }
+                if (slotIsVacant){
+                    break;
+                }
             }
-            System.out.println("Slot doesn't exist.");
+            System.out.println("Wrong slot selected.");
         }
 
         String slot = String.valueOf(input);
