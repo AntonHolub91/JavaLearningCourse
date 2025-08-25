@@ -30,10 +30,6 @@ public class TicTacToe {
                 System.out.println("Player 2 won!");
                 break;
             }
-            if (checkDraw(field)) {
-                System.out.println("Draw!");
-                break;
-            }
         }
         System.out.println("The end!");
     }
