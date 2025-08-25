@@ -19,6 +19,10 @@ public class TicTacToe {
                 System.out.println("Player 1 won!");
                 break;
             }
+            if (checkDraw(field)) {
+                System.out.println("Draw!");
+                break;
+            }
 
             player2.makeMove(scanner, field);
             showField();
