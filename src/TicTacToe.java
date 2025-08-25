@@ -36,12 +36,15 @@ public class TicTacToe {
 
     public static void showField() {
         System.out.println("The game field: ");
+        System.out.println(" ――― ――― ――― ");
         for (String[] row : field) {
             for (String slot :row) {
-                System.out.print(slot + "  ");
+                System.out.print("| " + slot + " ");
             }
+            System.out.print("|");
             System.out.println();
         }
+        System.out.println(" ‾‾‾ ‾‾‾ ‾‾‾ ");
     }
 
     public static boolean checkWin(String[][] field) {
