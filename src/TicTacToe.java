@@ -69,21 +69,20 @@ public class TicTacToe {
 class Player {
     static int counter;
     int playerNum;
-    String value;
+    String marker;
 
-    public Player(String value) {
+    public Player(String marker) {
         counter++;
         this.playerNum = counter;
-        this.value = value;
+        this.marker = marker;
     }
 
     public void makeMove(Scanner scanner, String[][] field) {
         int input;
         boolean slotIsVacant = false;
+        System.out.print("Player " + playerNum + ", select vacant slot from the game field to occupy: ");
         while (true) {
-            System.out.print("Player " + playerNum + ", select slot to occupy: ");
             input = scanner.nextInt();
-
             if (input >= 1 && input <= 9) {
                 for (int i = 0; i < field.length; i++) {
                     for (int j = 0; j < field[i].length; j++) {
@@ -97,14 +96,14 @@ class Player {
                     break;
                 }
             }
-            System.out.println("Wrong slot selected.");
+            System.out.print("Wrong slot selected. Choose vacant one from the game field: ");
         }
 
         String slot = String.valueOf(input);
         for (int i = 0; i < field.length; i++) {
             for (int j = 0; j < field[i].length; j++) {
                 if (field[i][j].equals(slot)) {
-                    field[i][j] = this.value;
+                    field[i][j] = this.marker;
                 }
             }
         }
