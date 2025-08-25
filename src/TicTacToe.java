@@ -15,22 +15,30 @@ public class TicTacToe {
         while (true) {
             player1.makeMove(scanner, field);
             showField();
-            if (checkWin(field)){
+            if (checkWin(field)) {
                 System.out.println("Player 1 won!");
                 break;
-            };
+            }
+            if (checkDraw(field)) {
+                System.out.println("Draw!");
+                break;
+            }
 
             player2.makeMove(scanner, field);
             showField();
-            if (checkWin(field)){
+            if (checkWin(field)) {
                 System.out.println("Player 2 won!");
                 break;
-            };
+            }
+            if (checkDraw(field)) {
+                System.out.println("Draw!");
+                break;
+            }
         }
         System.out.println("The end!");
     }
 
-    public static void showField(){
+    public static void showField() {
         for (String[] row : field) {
             System.out.println(Arrays.toString(row));
         }
@@ -44,17 +52,26 @@ public class TicTacToe {
                 || (field[0][1].equals(field[1][1]) && field[0][1].equals(field[2][1]) && field[1][1].equals(field[2][1]))
                 || (field[0][2].equals(field[1][2]) && field[0][2].equals(field[2][2]) && field[1][2].equals(field[2][2]))
                 || (field[0][0].equals(field[1][1]) && field[0][0].equals(field[2][2]) && field[1][1].equals(field[2][2]))
-                || (field[0][2].equals(field[1][1]) && field[0][2].equals(field[2][0]) && field[1][1].equals(field[2][0]))
-        ) {
+                || (field[0][2].equals(field[1][1]) && field[0][2].equals(field[2][0]) && field[1][1].equals(field[2][0]))) {
             return true;
         }
         return false;
+    }
+
+    public static boolean checkDraw(String[][] field) {
+        for (String[] array : field) {
+            for (String slot : array) {
+                if (slot != "0" && slot != "X") {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 }
 
 class Player {
     static int counter;
-    static String playersSlots = "";
     int playerNum;
     String value;
 
@@ -67,7 +84,7 @@ class Player {
     public void makeMove(Scanner scanner, String[][] field) {
         int input;
         boolean slotIsVacant = false;
-        while(true) {
+        while (true) {
             System.out.print("Player " + playerNum + ", select slot to occupy: ");
             input = scanner.nextInt();
 
@@ -80,7 +97,7 @@ class Player {
                         }
                     }
                 }
-                if (slotIsVacant){
+                if (slotIsVacant) {
                     break;
                 }
             }
