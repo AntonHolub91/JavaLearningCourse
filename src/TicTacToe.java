@@ -41,10 +41,10 @@ public class TicTacToe {
             for (String slot :row) {
                 System.out.print("| " + slot + " ");
             }
-            System.out.print("|");
-            System.out.println();
+            System.out.println("|");
+            System.out.println(" ――― ――― ――― ");
         }
-        System.out.println(" ‾‾‾ ‾‾‾ ‾‾‾ ");
+//        System.out.println(" ‾‾‾ ‾‾‾ ‾‾‾ ");
     }
 
     public static boolean checkWin(String[][] field) {
