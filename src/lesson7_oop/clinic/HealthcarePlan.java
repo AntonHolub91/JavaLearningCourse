@@ -8,4 +8,3 @@ public class HealthcarePlan {
                 ((healthProblem.equals("teeth") || healthProblem.equals("gums"))) ? 2 : 3;
     }
 }
-

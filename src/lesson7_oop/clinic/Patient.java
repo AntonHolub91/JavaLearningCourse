@@ -14,6 +14,5 @@ public class Patient {
         this.name = names[new Random().nextInt(0, healthProblems.length)];
         this.healthProblem = healthProblems[new Random().nextInt(0, healthProblems.length)];
         System.out.println("Patient name is " + this.name + ". Patient has problems with " + this.healthProblem + ".");
-
     }
 }

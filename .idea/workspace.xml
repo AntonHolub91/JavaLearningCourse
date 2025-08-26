@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
-      <change beforePath="$PROJECT_DIR$/src/lesson7/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7/clinic/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/clinic/Clinic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7/clinic/Dentist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/clinic/Dentist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7/clinic/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/clinic/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7/clinic/HealthcarePlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/clinic/HealthcarePlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7/clinic/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/clinic/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7/clinic/Surgeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/clinic/Surgeon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7/clinic/Therapist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/clinic/Therapist.java" afterDir="false" />
-    </list>
+    <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +73,7 @@
     "Application.TestComputer (4).executor": "Run",
     "Application.TestComputer (5).executor": "Run",
     "Application.TestComputer.executor": "Run",
+    "Application.TestCreditCard.executor": "Run",
     "Application.TestPhone (1).executor": "Run",
     "Application.TestPhone (2).executor": "Run",
     "Application.TestPhone (3).executor": "Run",
@@ -118,8 +110,8 @@
       <recent name="lesson6.methods_oop.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPhone (1)">
-    <configuration name="TestClinic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestClinic (1)">
+    <configuration name="TestClinic (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson7_oop.clinic.TestClinic" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
@@ -132,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestComputer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6_methods_oop.homework.TestComputer" />
+    <configuration name="TestClinic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7_oop.clinic.TestClinic" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6_methods_oop.homework.*" />
+          <option name="PATTERN" value="lesson7_oop.clinic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestPhone (1)" />
+        <item itemvalue="Application.TestClinic (1)" />
         <item itemvalue="Application.TestClinic" />
+        <item itemvalue="Application.TestPhone (1)" />
         <item itemvalue="Application.TestPhone" />
         <item itemvalue="Application.TestCreditCard" />
-        <item itemvalue="Application.TestComputer (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -11,7 +11,8 @@ package lesson7_oop.clinic;
 // Если план лечения имеет любой другой код – назначить терапевта и выполнить метод лечить.
 
 public class Clinic {
-    int patientsCountPerDay = 1;
+    int patientsCount = 1;
+    int maxPatientsPerDay = 10;
     Doctor[] doctors = {
             new Therapist("John"),
             new Surgeon("Bob"),
@@ -55,13 +56,13 @@ class TestClinic {
         System.out.println("Clinic's working day has started.");
         System.out.println("-".repeat(100));
 
-        while (clinic.patientsCountPerDay <= 10) { // clinic can process only 10 patients per day
-            System.out.println("Patient " + clinic.patientsCountPerDay + " came to the clinic."); //patient has come
+        while (clinic.patientsCount <= clinic.maxPatientsPerDay) { // clinic can process only 10 patients per day
+            System.out.println("Patient " + clinic.patientsCount + " came to the clinic."); //patient has come
             Patient patient = new Patient();
             patient.healthcarePlan = new HealthcarePlan(patient.healthProblem); // patient got his treatment plan
             clinic.createAppointment(patient); // linked patient with doctor
             patient.currentDoctor.treat(); //treatment was executed
-            clinic.patientsCountPerDay++;
+            clinic.patientsCount++;
             System.out.println("-".repeat(100));
         }
         System.out.println("Clinic's working day has ended.");
