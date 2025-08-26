@@ -1,4 +1,4 @@
-package lesson6.methods_oop.homework;
+package lesson6_methods_oop.homework;
 
 // Создать класс, описывающий банкомат.
 // Набор купюр, находящихся в банкомате, должен задаваться тремя свойствами:

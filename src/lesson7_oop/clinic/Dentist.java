@@ -1,4 +1,4 @@
-package lesson7.clinic;
+package lesson7_oop.clinic;
 
 public class Dentist extends Doctor {
     public Dentist(String name){

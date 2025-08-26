@@ -1,4 +1,4 @@
-package lesson7.clinic;
+package lesson7_oop.clinic;
 
 // 2 Создать программу для имитации работы клиники.
 // Пусть в клинике будет три врача: хирург, терапевт и дантист.
@@ -52,6 +52,8 @@ public class Clinic {
 class TestClinic {
     public static void main(String[] args) {
         Clinic clinic = new Clinic();
+        System.out.println("Clinic's working day has started.");
+        System.out.println("-".repeat(100));
 
         while (clinic.patientsCountPerDay <= 10) { // clinic can process only 10 patients per day
             System.out.println("Patient " + clinic.patientsCountPerDay + " came to the clinic."); //patient has come
@@ -62,7 +64,6 @@ class TestClinic {
             clinic.patientsCountPerDay++;
             System.out.println("-".repeat(100));
         }
-
         System.out.println("Clinic's working day has ended.");
     }
 }

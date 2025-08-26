@@ -1,4 +1,4 @@
-package lesson4.methods_arrays;
+package lesson4_methods_arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;

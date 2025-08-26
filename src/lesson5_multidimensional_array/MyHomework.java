@@ -1,4 +1,4 @@
-package lesson5.multidimensional_array;
+package lesson5_multidimensional_array;
 
 import java.util.Arrays;
 import java.util.Scanner;

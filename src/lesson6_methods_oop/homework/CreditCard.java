@@ -1,4 +1,4 @@
-package lesson6.methods_oop.homework;
+package lesson6_methods_oop.homework;
 
 // 1 Создать класс CreditCard c полями номер счета, текущая сумма на счету.
 // Добавьте метод, который позволяет начислять сумму на кредитную карточку.

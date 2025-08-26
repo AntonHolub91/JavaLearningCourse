@@ -1,4 +1,4 @@
-package lesson7;
+package lesson7_oop;
 
 // 1 Класс Phone.
 // Создайте класс Phone, который содержит переменные number, model и weight. Создайте три экземпляра этого класса.
