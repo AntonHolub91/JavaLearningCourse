@@ -2,7 +2,8 @@ package lesson7_oop.clinic;
 
 public class Therapist extends Doctor {
     public Therapist(String name) {
-        super(name, "therapist");
+        super(name);
+        this.specialization = "therapist";
     }
 
     @Override

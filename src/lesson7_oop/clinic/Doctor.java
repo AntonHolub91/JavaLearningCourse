@@ -5,9 +5,9 @@ public class Doctor {
     String specialization;
     Patient currentPatient;
 
-    public Doctor(String name, String specialization) {
+    public Doctor(String name) {
         this.name = name;
-        this.specialization = specialization;
+        this.specialization = "unknown";
     }
 
     public void treat() {
