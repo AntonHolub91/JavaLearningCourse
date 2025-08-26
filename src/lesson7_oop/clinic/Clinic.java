@@ -41,8 +41,8 @@ public class Clinic {
             }
         }
 
-        patient.currentDoctor = requiredDoctor;
-        requiredDoctor.currentPatient = patient;
+        patient.currentDoctor = requiredDoctor; // linked patient with his doctor
+        requiredDoctor.currentPatient = patient; // linked doctor with his patient
 
         System.out.println("Patient " + patient.name + " with "
                 + patient.healthProblem + " problems got an appointment to doctor " + patient.currentDoctor.name +
@@ -59,7 +59,7 @@ class TestClinic {
         while (clinic.patientsCount <= clinic.maxPatientsPerDay) { // clinic can process only 10 patients per day
             System.out.println("Patient " + clinic.patientsCount + " came to the clinic."); //patient has come
             Patient patient = new Patient();
-            patient.healthcarePlan = new HealthcarePlan(patient.healthProblem); // patient got his treatment plan
+            patient.healthcarePlan = new HealthcarePlan(patient.healthProblem); // patient got his treatment plan according to his problem
             clinic.createAppointment(patient); // linked patient with doctor
             patient.currentDoctor.treat(); //treatment was executed
             clinic.patientsCount++;

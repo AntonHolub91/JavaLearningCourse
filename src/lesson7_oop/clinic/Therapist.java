@@ -8,7 +8,7 @@ public class Therapist extends Doctor {
 
     @Override
     public void treat() {
-        System.out.println("The diagnosis of " + currentPatient.healthProblem +
+        System.out.println("The diagnostic of " + currentPatient.healthProblem +
                 " for patient " + currentPatient.name + " was carried out.");
     }
 }

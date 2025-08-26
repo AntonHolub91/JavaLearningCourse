@@ -8,7 +8,7 @@ public class Surgeon extends Doctor {
 
     @Override
     public void treat() {
-        System.out.println("The operation on " + currentPatient.healthProblem +
+        System.out.println("The surgeon operation on " + currentPatient.healthProblem +
                 " for patient " + currentPatient.name + " was carried out.");
     }
 }
