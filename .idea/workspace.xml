@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework" />
+    <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
+      <change afterPath="$PROJECT_DIR$/src/lesson7/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/clinic/Clinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/clinic/Dentist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/clinic/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/clinic/HealthcarePlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/clinic/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/clinic/Surgeon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson7/clinic/Therapist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessWordGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessWordGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,62 +43,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CreditCard.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GuessWordGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KrestikiNoliki (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.KrestikiNoliki (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.KrestikiNoliki.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyHomework.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyOperators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat2 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat2 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat2 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestBankomat2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestComputer (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestComputer (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestComputer (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestComputer (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestComputer (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestComputer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tests.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson3.operators.MyOperators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lesson5.multidimensional_array.MyMain.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anton.holub/Documents/Programming/Java learning/JavaLearningCourse/src/lesson6/methods_oop/homework&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CreditCard.executor": "Run",
+    "Application.GuessWordGame.executor": "Run",
+    "Application.KrestikiNoliki (1).executor": "Run",
+    "Application.KrestikiNoliki (2).executor": "Run",
+    "Application.KrestikiNoliki.executor": "Run",
+    "Application.MyArrays.executor": "Run",
+    "Application.MyClass.executor": "Run",
+    "Application.MyHomework.executor": "Run",
+    "Application.MyMain.executor": "Run",
+    "Application.MyOperators.executor": "Run",
+    "Application.MyTasks.executor": "Run",
+    "Application.Test (1).executor": "Run",
+    "Application.Test (2).executor": "Run",
+    "Application.Test (3).executor": "Run",
+    "Application.Test (4).executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestBankomat (1).executor": "Run",
+    "Application.TestBankomat (2).executor": "Run",
+    "Application.TestBankomat (3).executor": "Run",
+    "Application.TestBankomat (4).executor": "Run",
+    "Application.TestBankomat (5).executor": "Run",
+    "Application.TestBankomat.executor": "Run",
+    "Application.TestBankomat2 (1).executor": "Run",
+    "Application.TestBankomat2 (2).executor": "Run",
+    "Application.TestBankomat2 (3).executor": "Run",
+    "Application.TestBankomat2 (4).executor": "Run",
+    "Application.TestBankomat2 (5).executor": "Run",
+    "Application.TestBankomat2.executor": "Run",
+    "Application.TestClinic (1).executor": "Run",
+    "Application.TestClinic (2).executor": "Run",
+    "Application.TestClinic (3).executor": "Run",
+    "Application.TestClinic (4).executor": "Run",
+    "Application.TestClinic (5).executor": "Run",
+    "Application.TestClinic.executor": "Run",
+    "Application.TestComputer (1).executor": "Run",
+    "Application.TestComputer (2).executor": "Run",
+    "Application.TestComputer (3).executor": "Run",
+    "Application.TestComputer (4).executor": "Run",
+    "Application.TestComputer (5).executor": "Run",
+    "Application.TestComputer.executor": "Run",
+    "Application.TestPhone (1).executor": "Run",
+    "Application.TestPhone (2).executor": "Run",
+    "Application.TestPhone (3).executor": "Run",
+    "Application.TestPhone (4).executor": "Run",
+    "Application.TestPhone (5).executor": "Run",
+    "Application.TestPhone.executor": "Run",
+    "Application.Tests.executor": "Run",
+    "Application.Tet.executor": "Run",
+    "Application.TicTacToe (1).executor": "Run",
+    "Application.TicTacToe (2).executor": "Run",
+    "Application.TicTacToe (3).executor": "Run",
+    "Application.TicTacToe (4).executor": "Run",
+    "Application.TicTacToe (5).executor": "Run",
+    "Application.TicTacToe.executor": "Run",
+    "Application.lesson3.operators.MyOperators.executor": "Run",
+    "Application.lesson5.multidimensional_array.MyMain.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/anton.holub/Documents/Programming/Java learning/JavaLearningCourse/src/lesson6/methods_oop/homework",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lesson6/methods_oop/homework" />
@@ -95,49 +120,118 @@
       <recent name="lesson6.methods_oop.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToe">
-    <configuration name="TicTacToe (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
+  <component name="RunManager" selected="Application.TestClinic">
+    <configuration name="TestClinic (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.clinic.TestClinic" />
       <module name="JavaLearningCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.clinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
+    <configuration name="TestClinic (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.clinic.TestClinic" />
       <module name="JavaLearningCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.clinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
+    <configuration name="TestClinic (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.clinic.TestClinic" />
       <module name="JavaLearningCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.clinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
+    <configuration name="TestClinic (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.clinic.TestClinic" />
       <module name="JavaLearningCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.clinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
+    <configuration name="TestClinic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.clinic.TestClinic" />
       <module name="JavaLearningCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.clinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPhone (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.TestPhone" />
+      <module name="JavaLearningCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPhone (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.TestPhone" />
+      <module name="JavaLearningCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPhone (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson7.TestPhone" />
+      <module name="JavaLearningCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.TicTacToe (1)" />
-        <item itemvalue="Application.TicTacToe (4)" />
-        <item itemvalue="Application.TicTacToe (5)" />
-        <item itemvalue="Application.TicTacToe (3)" />
+        <item itemvalue="Application.TestClinic" />
+        <item itemvalue="Application.TestClinic (3)" />
+        <item itemvalue="Application.TestClinic (2)" />
+        <item itemvalue="Application.TestClinic (1)" />
+        <item itemvalue="Application.TestClinic (5)" />
       </list>
     </recent_temporary>
   </component>

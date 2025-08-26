@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -23,37 +24,76 @@ public class GuessWordGame {
         startGame();
     }
 
-    public static void startGame() {
+    public static void startGame(){
         // Основная логика, метод контроля
         showInitialInstruction();
+
         System.out.print("Would you like to START THE GAME (y - yes, n - no)? ");
 
-        if ((getInput().nextLine().equalsIgnoreCase("y"))) {
+        if ((getInput().nextLine().equalsIgnoreCase("y"))){
             System.out.println("-".repeat(100));
-            OUTER:
-            while (true) {
-                String hiddenWord = getHiddenWord(hiddenWords());
-                System.out.println("Your hidden WORD IS: " + hiddenWord);
-                String hiddenWordMasked = "*".repeat(hiddenWord.length());
-                String[] maskedArray = hiddenWordMasked.split("");
-                System.out.println("Your hidden WORD MASK IS: " + hiddenWordMasked);
 
-                while (hiddenWordMasked.contains("*")) {
-                    System.out.print("Enter a letter: ");
-                    String letter = getInput().nextLine();
-                    checkLetterInWord(hiddenWord,letter, hiddenWordMasked, maskedArray);
-                }
-                System.out.println("Congrats! You guessed the word!");
-                System.out.println(hiddenWordMasked);
-                break OUTER;
+            while(true){
+                // ГЛАВНОЕ ТЕЛО
+                String hiddenWord = getHiddenWord(hiddenWords());
+                char[] hiddenWordArray = hiddenWord.toCharArray();
+                Arrays.fill(hiddenWordArray, '*');
+
+                System.out.println("Your hidden WORD IS: " + hiddenWord);
+
+                String value;
+
+                // CHECK IF THERE IS NO VALUE - EMPTY - length == 0, while пока не будет введен хотя бы один знак
+                do{
+                    // ПОЗВОЛИТЬ ИГРОКУ ВВЕСТИ БУКВУ ИЛИ СЛОВО
+                    // Если длина введенной строчки больше > 1 (1 - letter)
+                    System.out.print("Please, enter a letter or a whole word: ");
+                    value = getInput().nextLine();
+
+                    if (value.length() == 1){
+                        // Проверить существование буквы
+                        // Проверить сколько раз эта буква присутствует
+                        // Показать в новом массиве сколько вы угадали БУКВ
+                        // housekeeper - e - ****e*ee*e*
+                        // hiddenWord
+                        // char[] hiddenWordArray = '*';
+                        for (int index = 0; index < hiddenWord.length(); index++){
+                            // String -> massive characters -> index
+                            // hiddenWord.charAt(index) - символ
+                            // value.length == 1, там один только символ, он хранится по нулевым индексом
+                            if (hiddenWord.charAt(index) == value.charAt(0)){
+                                hiddenWordArray[index] = value.charAt(0);
+                            }
+                            // ПРОВЕРИТЬ, ЧТО ЕСЛИ БОЛЬШЕ НЕЧЕГО УГАДЫВАТЬ? ГДЕ НАДО ОСТАНОВИТЬСЯ???
+                        }
+                        readArray(hiddenWordArray);
+                    } else if (value.length() > 1){
+                        if (hiddenWord.equals(value)){
+                            System.out.println("YOU HAVE GUESSED THE WORD. IT IS: " + hiddenWord);
+                            break;
+                        }
+                    } else {
+                        System.out.println("YOU HAVE ENTERED AN EMPTY STRING.");
+                    }
+                    // ПРОВЕРИТЬ ЯВЛЯЕТСЯ ЛИ ЭТО БУКВА??? или это ЧИСЛО??
+                } while (value.isEmpty()); // value.length() == 0
+
+                // ADD QUESTION: WOULD YOU LIKE TO REPEAT?
+                break;
             }
         } else {
             System.out.println("-".repeat(100));
-            System.out.println("You have decided not to EVEN START GAME TO TRY. BYE! BYE!");
+            System.out.println("You have decided not to EVEN START GAME TO TRY. BUY! BUY!");
         }
     }
 
-    public static void showInitialInstruction() {
+    public static void readArray(char[] hiddenWordArray){
+        for (char letter : hiddenWordArray){
+            System.out.print(letter + "\t");
+        }
+    }
+
+    public static void showInitialInstruction(){
         System.out.println("-".repeat(100));
         System.out.println("Welcome to GUESS WORD game by Archil Sikharulidze.");
         System.out.println("Your job is to GUESS hidden word by either LETTERS or you can guess a whole WORD.");
@@ -63,7 +103,7 @@ public class GuessWordGame {
         System.out.println("-".repeat(100));
     }
 
-    public static String[] hiddenWords() {
+    public static String[] hiddenWords(){
         return new String[]{
                 "apple",
                 "house",
@@ -79,36 +119,17 @@ public class GuessWordGame {
         };
     }
 
-    public static String getHiddenWord(String[] hiddenWords) {
+    public static String getHiddenWord(String[] hiddenWords){
         return hiddenWords[getRandom().nextInt(0, hiddenWords.length)];
     }
 
-    public static Random getRandom() {
+    public static Random getRandom(){
         return new Random();
     }
 
     // Возвращает экземпляр класса Scanner и я могу каждый
     // раз использовать его в разных направлениях
-    public static Scanner getInput() {
+    public static Scanner getInput(){
         return new Scanner(System.in);
-    }
-
-    //my own methods
-
-    public static String checkLetterInWord(String hiddenWord, String letter, String hiddenWordMasked, String[] maskedArray) {
-        if (hiddenWord.contains(letter)) {
-            System.out.println("Letter is presented in the array!");
-            for (int i = 0; i < hiddenWord.length(); i++) {
-                if (hiddenWord.split("")[i].equals(letter)) {
-                    maskedArray[i] = letter;
-                }
-            }
-            hiddenWordMasked = String.join("", maskedArray);
-            System.out.println(hiddenWordMasked);
-        } else {
-            System.out.println("Letter is NOT presented in the word");
-            System.out.println(hiddenWord);
-        }
-        return hiddenWordMasked;
     }
 }

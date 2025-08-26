@@ -1,0 +1,68 @@
+package lesson7.clinic;
+
+// 2 Создать программу для имитации работы клиники.
+// Пусть в клинике будет три врача: хирург, терапевт и дантист.
+// Каждый врач имеет метод «лечить», но каждый врач лечит по-своему.
+// Так же предусмотреть класс «Пациент» и класс «План лечения».
+// Создать объект класса «Пациент» и добавить пациенту план лечения.
+// Так же создать метод, который будет назначать врача пациенту согласно плану лечения.
+// Если план лечения имеет код 1 – назначить хирурга и выполнить метод лечить.
+// Если план лечения имеет код 2 – назначить дантиста и выполнить метод лечить.
+// Если план лечения имеет любой другой код – назначить терапевта и выполнить метод лечить.
+
+public class Clinic {
+    int patientsCountPerDay = 1;
+    Doctor[] doctors = {
+            new Therapist("John"),
+            new Surgeon("Bob"),
+            new Dentist("Tom")
+    };
+
+    public void createAppointment(Patient patient) {
+        Doctor requiredDoctor = null;
+        if (patient.healthcarePlan.code == 1) {
+            for (Doctor doctor : doctors) {
+                if (doctor.specialization.equals("surgeon")) {
+                    requiredDoctor = doctor;
+                }
+            }
+        } else if (patient.healthcarePlan.code == 2) {
+            for (Doctor doctor : doctors) {
+                if (doctor.specialization.equals("dentist")) {
+                    requiredDoctor = doctor;
+                }
+            }
+        } else {
+            for (Doctor doctor : doctors) {
+                if (doctor.specialization.equals("therapist")) {
+                    requiredDoctor = doctor;
+                }
+            }
+        }
+
+        patient.currentDoctor = requiredDoctor;
+        requiredDoctor.currentPatient = patient;
+
+        System.out.println("Patient " + patient.name + " with "
+                + patient.healthProblem + " problems got an appointment to doctor " + patient.currentDoctor.name +
+                " with " + patient.currentDoctor.specialization + " specialization.");
+    }
+}
+
+class TestClinic {
+    public static void main(String[] args) {
+        Clinic clinic = new Clinic();
+
+        while (clinic.patientsCountPerDay <= 10) { // clinic can process only 10 patients per day
+            System.out.println("Patient " + clinic.patientsCountPerDay + " came to the clinic."); //patient has come
+            Patient patient = new Patient();
+            patient.healthcarePlan = new HealthcarePlan(patient.healthProblem); // patient got his treatment plan
+            clinic.createAppointment(patient); // linked patient with doctor
+            patient.currentDoctor.treat(); //treatment was executed
+            clinic.patientsCountPerDay++;
+            System.out.println("-".repeat(100));
+        }
+
+        System.out.println("Clinic's working day has ended.");
+    }
+}

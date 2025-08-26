@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class TicTacToe {
@@ -44,7 +43,6 @@ public class TicTacToe {
             System.out.println("|");
             System.out.println(" ――― ――― ――― ");
         }
-//        System.out.println(" ‾‾‾ ‾‾‾ ‾‾‾ ");
     }
 
     public static boolean checkWin(String[][] field) {
