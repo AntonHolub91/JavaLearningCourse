@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/classwork/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/classwork/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/classwork/MyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/MyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/Docs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/EmployeeContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/FinancialDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/SupplyContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/register/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/figures/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/figures/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/figures/MyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/figures/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/figures/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/workers/Accountant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/workers/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/workers/MyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/workers/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/workers/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7_oop/clinic/Clinic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson7_oop/clinic/Clinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,6 +65,7 @@
     "Application.MyArrays.executor": "Run",
     "Application.MyClass.executor": "Run",
     "Application.MyHomework.executor": "Run",
+    "Application.MyMain (1).executor": "Run",
     "Application.MyMain.executor": "Run",
     "Application.MyOperators.executor": "Run",
     "Application.MyTasks.executor": "Run",
@@ -94,6 +116,10 @@
     "Application.lesson3.operators.MyOperators.executor": "Run",
     "Application.lesson5.multidimensional_array.MyMain.executor": "Run",
     "Application.lesson7_oop.clinic.TestClinic.executor": "Run",
+    "Application.lesson_8_oop_interfaces.classwork.MyMain.executor": "Run",
+    "Application.lesson_8_oop_interfaces.documents.MyMain.executor": "Run",
+    "Application.lesson_8_oop_interfaces.documents_task.MyMain.executor": "Run",
+    "Application.lesson_8_oop_interfaces.workers.MyMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -113,52 +139,20 @@
       <recent name="lesson6.methods_oop.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClinic">
-    <configuration name="TestClinic (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7_oop.clinic.TestClinic" />
+  <component name="RunManager" selected="Application.MyMain">
+    <configuration name="MyMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyMain" />
       <module name="JavaLearningCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson7_oop.clinic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClinic (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7_oop.clinic.TestClinic" />
+    <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_8_oop_interfaces.figures.MyMain" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson7_oop.clinic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClinic (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7_oop.clinic.TestClinic" />
-      <module name="JavaLearningCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson7_oop.clinic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClinic (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7_oop.clinic.TestClinic" />
-      <module name="JavaLearningCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson7_oop.clinic.*" />
+          <option name="PATTERN" value="lesson_8_oop_interfaces.figures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPhone (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.TestPhone" />
+    <configuration name="lesson_8_oop_interfaces.documents_task.MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_8_oop_interfaces.documents_task.MyMain" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson7.*" />
+          <option name="PATTERN" value="lesson_8_oop_interfaces.documents_task.documents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,25 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPhone (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.TestPhone" />
+    <configuration name="lesson_8_oop_interfaces.workers.MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_8_oop_interfaces.workers.MyMain" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPhone (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson7.TestPhone" />
-      <module name="JavaLearningCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson7.*" />
+          <option name="PATTERN" value="lesson_8_oop_interfaces.workers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyMain" />
+        <item itemvalue="Application.MyMain (1)" />
+        <item itemvalue="Application.lesson_8_oop_interfaces.documents_task.MyMain" />
+        <item itemvalue="Application.lesson_8_oop_interfaces.workers.MyMain" />
         <item itemvalue="Application.TestClinic" />
-        <item itemvalue="Application.TestClinic (3)" />
-        <item itemvalue="Application.TestClinic (2)" />
-        <item itemvalue="Application.TestClinic (1)" />
-        <item itemvalue="Application.TestClinic (5)" />
       </list>
     </recent_temporary>
   </component>
