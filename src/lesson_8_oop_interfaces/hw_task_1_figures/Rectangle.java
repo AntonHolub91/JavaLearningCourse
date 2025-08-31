@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.figures;
+package lesson_8_oop_interfaces.hw_task_1_figures;
 
 public class Rectangle extends Triangle {
     int side4;

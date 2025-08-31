@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.documents_task.documents;
+package lesson_8_oop_interfaces.hw_task_3_documents.documents;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -15,7 +15,7 @@ public abstract class Document {
 
     public Date dateConverter(String date) {
         String[] dateArray = date.split("-");
-        return new Date( Integer.valueOf(dateArray[0]) - 1900, Integer.valueOf(dateArray[1]) - 1,
-                Integer.valueOf(dateArray[2]));
+        return new Date( Integer.parseInt(dateArray[0]) - 1900, Integer.parseInt(dateArray[1]) - 1,
+                Integer.parseInt(dateArray[2]));
     }
 }

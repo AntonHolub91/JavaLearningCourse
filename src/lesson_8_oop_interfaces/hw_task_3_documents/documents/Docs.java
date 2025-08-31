@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.documents_task.documents;
+package lesson_8_oop_interfaces.hw_task_3_documents.documents;
 
 public interface Docs {
     void showInfo();

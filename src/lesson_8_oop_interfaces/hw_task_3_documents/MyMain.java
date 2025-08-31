@@ -1,10 +1,10 @@
-package lesson_8_oop_interfaces.documents_task;
+package lesson_8_oop_interfaces.hw_task_3_documents;
 
-import lesson_8_oop_interfaces.documents_task.documents.Docs;
-import lesson_8_oop_interfaces.documents_task.documents.EmployeeContract;
-import lesson_8_oop_interfaces.documents_task.documents.FinancialDocument;
-import lesson_8_oop_interfaces.documents_task.documents.SupplyContract;
-import lesson_8_oop_interfaces.documents_task.register.Register;
+import lesson_8_oop_interfaces.hw_task_3_documents.documents.Docs;
+import lesson_8_oop_interfaces.hw_task_3_documents.documents.EmployeeContract;
+import lesson_8_oop_interfaces.hw_task_3_documents.documents.FinancialDocument;
+import lesson_8_oop_interfaces.hw_task_3_documents.documents.SupplyContract;
+import lesson_8_oop_interfaces.hw_task_3_documents.register.Register;
 
 public class MyMain {
     public static void main(String[] args) {

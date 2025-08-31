@@ -1,6 +1,6 @@
-package lesson_8_oop_interfaces.documents_task.register;
+package lesson_8_oop_interfaces.hw_task_3_documents.register;
 
-import lesson_8_oop_interfaces.documents_task.documents.Docs;
+import lesson_8_oop_interfaces.hw_task_3_documents.documents.Docs;
 
 public class Register {
     Docs[] documents = new Docs[10];

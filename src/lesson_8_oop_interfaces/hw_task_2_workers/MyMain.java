@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.workers;
+package lesson_8_oop_interfaces.hw_task_2_workers;
 
 public class MyMain {
     public static void main(String[] args) {
