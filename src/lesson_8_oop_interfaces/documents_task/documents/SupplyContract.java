@@ -1,8 +1,5 @@
 package lesson_8_oop_interfaces.documents_task.documents;
 
-import java.text.SimpleDateFormat;
-import java.util.SimpleTimeZone;
-
 public class SupplyContract extends Document implements Docs {
     String productType;
     int productQuantity;

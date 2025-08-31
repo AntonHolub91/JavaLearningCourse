@@ -1,7 +1,5 @@
 package lesson_8_oop_interfaces.documents_task.documents;
 
-import java.text.SimpleDateFormat;
-
 public class FinancialDocument extends Document implements Docs {
     Double totalSumMonth;
     String departmentCode;

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework" />
+    <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
+      <change beforePath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/EmployeeContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/EmployeeContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/FinancialDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/FinancialDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/SupplyContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/documents/SupplyContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/register/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_8_oop_interfaces/documents_task/register/Register.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

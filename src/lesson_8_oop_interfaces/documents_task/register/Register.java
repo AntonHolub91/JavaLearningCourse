@@ -2,8 +2,6 @@ package lesson_8_oop_interfaces.documents_task.register;
 
 import lesson_8_oop_interfaces.documents_task.documents.Docs;
 
-import java.sql.SQLOutput;
-
 public class Register {
     Docs[] documents = new Docs[10];
 
