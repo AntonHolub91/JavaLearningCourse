@@ -14,7 +14,6 @@ public class FinancialDocument extends Document implements Docs {
 
     @Override
     public void showInfo() {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         System.out.println("Document number: " + documentNumber + ";\n" +
                 "Document date: " + sdf.format(documentDate) + ";\n" +
                 "Total month sum: " + totalSumMonth + ";\n" +

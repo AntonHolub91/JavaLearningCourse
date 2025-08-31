@@ -2,6 +2,8 @@ package lesson_8_oop_interfaces.documents_task.register;
 
 import lesson_8_oop_interfaces.documents_task.documents.Docs;
 
+import java.sql.SQLOutput;
+
 public class Register {
     Docs[] documents = new Docs[10];
 
@@ -24,6 +26,7 @@ public class Register {
     }
 
     public void showAllDocuments() {
+        System.out.println("Full list of documents in the register is: ");
         for (Docs doc : documents) {
             if (doc != null) {
                 doc.showInfo();

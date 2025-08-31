@@ -14,7 +14,7 @@ public class MyMain {
         register.saveDocument(doc1);
         register.showAllDocuments();
 
-        Docs doc2 = new FinancialDocument(3, "2024-05-21",
+        Docs doc2 = new FinancialDocument(2, "2024-05-21",
                 10000.99, "PFB-01");
         register.saveDocument(doc2);
         register.showAllDocuments();
@@ -24,7 +24,7 @@ public class MyMain {
         register.saveDocument(doc3);
         register.showAllDocuments();
 
-        Docs doc4 = new SupplyContract(3, "2021-09-21",
+        Docs doc4 = new SupplyContract(4, "2021-09-21",
                 "Table", 100);
 
         register.saveDocument(doc4);
