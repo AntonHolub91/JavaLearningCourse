@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.hw_task_2_workers;
+package lesson8_oop_interfaces.hw_task_2_workers;
 
 // 2 Создать классы "Директор", "Рабочий", "Бухгалтер".
 // Реализовать интерфейс с методом, который печатает название должности и

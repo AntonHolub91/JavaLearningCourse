@@ -1,6 +1,6 @@
-package lesson_8_oop_interfaces.hw_task_1_figures;
+package lesson8_oop_interfaces.hw_task_1_figures;
 
-public class Circle extends Rectangle {
+public class Circle extends Rectangle implements Calculations {
     final double pi = 3.1428;
     int radius;
 

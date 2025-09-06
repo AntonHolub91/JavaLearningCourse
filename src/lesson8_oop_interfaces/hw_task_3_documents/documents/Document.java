@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.hw_task_3_documents.documents;
+package lesson8_oop_interfaces.hw_task_3_documents.documents;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

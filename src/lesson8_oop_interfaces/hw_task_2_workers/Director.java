@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.hw_task_2_workers;
+package lesson8_oop_interfaces.hw_task_2_workers;
 
 public class Director implements Salary {
     @Override

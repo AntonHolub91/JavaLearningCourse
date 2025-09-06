@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.hw_task_3_documents.documents;
+package lesson8_oop_interfaces.hw_task_3_documents.documents;
 
 public class FinancialDocument extends Document implements Docs {
     Double totalSumMonth;
@@ -12,10 +12,10 @@ public class FinancialDocument extends Document implements Docs {
 
     @Override
     public void showInfo() {
-        System.out.println("Document number: " + documentNumber + ";\n" +
-                "Document date: " + sdf.format(documentDate) + ";\n" +
-                "Total month sum: " + totalSumMonth + ";\n" +
-                "Department code: " + departmentCode + ";\n" +
+        System.out.println("Document number: " + documentNumber + "\n" +
+                "Document date: " + sdf.format(documentDate) + "\n" +
+                "Total month sum: " + totalSumMonth + "\n" +
+                "Department code: " + departmentCode + "\n" +
                 "-".repeat(40));
     }
 

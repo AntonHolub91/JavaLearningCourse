@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.hw_task_3_documents.documents;
+package lesson8_oop_interfaces.hw_task_3_documents.documents;
 
 public class SupplyContract extends Document implements Docs {
     String productType;
@@ -12,10 +12,10 @@ public class SupplyContract extends Document implements Docs {
 
     @Override
     public void showInfo() {
-        System.out.println("Document number: " + documentNumber + ";\n" +
-                "Document date: " + sdf.format(documentDate) + ";\n" +
-                "Product type: " + productType + ";\n" +
-                "Quantity: " + productQuantity + ";\n" +
+        System.out.println("Document number: " + documentNumber + "\n" +
+                "Document date: " + sdf.format(documentDate) + "\n" +
+                "Product type: " + productType + "\n" +
+                "Quantity: " + productQuantity + "\n" +
                 "-".repeat(40));
     }
 

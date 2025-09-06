@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class MyMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ArithmeticException{
         byte b1 = 1;
         int i1 = b1;
         System.out.println(i1);
@@ -40,6 +40,7 @@ public class MyMain {
         System.out.println(i5 + l3);
 
         int i9 = (i6 / (i5 + 1)) * 2;
+
         System.out.println(i9);
     }
 }

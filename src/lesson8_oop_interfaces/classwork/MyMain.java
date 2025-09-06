@@ -1,4 +1,4 @@
-package lesson_8_oop_interfaces.classwork;
+package lesson8_oop_interfaces.classwork;
 
 public class MyMain {
     public static void main(String[] args) {

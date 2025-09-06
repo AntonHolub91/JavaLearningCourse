@@ -1,10 +1,10 @@
-package lesson_8_oop_interfaces.hw_task_3_documents;
+package lesson8_oop_interfaces.hw_task_3_documents;
 
-import lesson_8_oop_interfaces.hw_task_3_documents.documents.Docs;
-import lesson_8_oop_interfaces.hw_task_3_documents.documents.EmployeeContract;
-import lesson_8_oop_interfaces.hw_task_3_documents.documents.FinancialDocument;
-import lesson_8_oop_interfaces.hw_task_3_documents.documents.SupplyContract;
-import lesson_8_oop_interfaces.hw_task_3_documents.register.Register;
+import lesson8_oop_interfaces.hw_task_3_documents.documents.Docs;
+import lesson8_oop_interfaces.hw_task_3_documents.documents.EmployeeContract;
+import lesson8_oop_interfaces.hw_task_3_documents.documents.FinancialDocument;
+import lesson8_oop_interfaces.hw_task_3_documents.documents.SupplyContract;
+import lesson8_oop_interfaces.hw_task_3_documents.register.Register;
 
 public class MyMain {
     public static void main(String[] args) {
@@ -29,5 +29,8 @@ public class MyMain {
 
         register.saveDocument(doc4);
         register.showAllDocuments();
+
+        SupplyContract sc = new SupplyContract(18, "2021-09-21",
+                "Table", 100);
     }
 }

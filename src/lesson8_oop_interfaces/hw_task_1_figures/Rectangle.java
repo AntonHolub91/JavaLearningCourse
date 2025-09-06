@@ -1,6 +1,6 @@
-package lesson_8_oop_interfaces.hw_task_1_figures;
+package lesson8_oop_interfaces.hw_task_1_figures;
 
-public class Rectangle extends Triangle {
+public class Rectangle extends Triangle implements Calculations {
     int side4;
 
     public Rectangle(int side1, int side2, int side3, int side4) {
@@ -17,6 +17,6 @@ public class Rectangle extends Triangle {
     @Override
     public double calculatePerimeter(){
 //        System.out.println("Perimeter is: " + (side1 + side1 + side3 + side4));
-        return side1 + side1 + side3 + side4;
+        return side1 + side2 + side3 + side4;
     }
 }
