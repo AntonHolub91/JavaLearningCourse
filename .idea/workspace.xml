@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
-      <change afterPath="$PROJECT_DIR$/src/lesson9_interfaces_exceptions/classwork/MyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson9_interfaces_exceptions/homework/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson9_interfaces_exceptions/homework/MyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson9_interfaces_exceptions/homework/WrongLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson9_interfaces_exceptions/homework/WrongPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_excep_strings/homework/MyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_excep_strings/homework/WorkWithStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson10_excep_strings/homework/doc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +96,7 @@
     "Application.TicTacToe (4).executor": "Run",
     "Application.TicTacToe (5).executor": "Run",
     "Application.TicTacToe.executor": "Run",
+    "Application.lesson10_excep_strings.homework.MyMain.executor": "Run",
     "Application.lesson3.operators.MyOperators.executor": "Run",
     "Application.lesson5.multidimensional_array.MyMain.executor": "Run",
     "Application.lesson7_oop.clinic.TestClinic.executor": "Run",
@@ -124,11 +123,15 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lesson6/methods_oop/homework" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lesson10_excep_strings/homework" />
+      <recent name="$PROJECT_DIR$/src/lesson10_excep_strings/homework/task1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lesson6.methods_oop.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson9_interfaces_exceptions.homework.MyMain">
+  <component name="RunManager" selected="Application.lesson10_excep_strings.homework.MyMain">
     <configuration name="Credentials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9_interfaces_exceptions.homework.Credentials" />
       <module name="JavaLearningCourse" />
@@ -142,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson8_oop_interfaces.hw_task_1_figures.MyMain" />
+    <configuration name="lesson10_excep_strings.homework.MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson10_excep_strings.homework.MyMain" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson8_oop_interfaces.hw_task_1_figures.*" />
+          <option name="PATTERN" value="lesson10_excep_strings.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson10_excep_strings.homework.MyMain" />
         <item itemvalue="Application.lesson9_interfaces_exceptions.homework.MyMain" />
         <item itemvalue="Application.Credentials" />
         <item itemvalue="Application.lesson8_oop_interfaces.hw_task_3_documents.MyMain" />
         <item itemvalue="Application.lesson8_oop_interfaces.hw_task_2_workers.MyMain" />
-        <item itemvalue="Application.MyMain" />
       </list>
     </recent_temporary>
   </component>
