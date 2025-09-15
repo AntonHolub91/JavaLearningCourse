@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
-      <change afterPath="$PROJECT_DIR$/src/lesson10_excep_strings/homework/MyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson10_excep_strings/homework/WorkWithStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson10_excep_strings/homework/doc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_str_regex/homework/IPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson11_str_regex/homework/SteamAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/BMW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/MyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,7 @@
     "Application.MyMain.executor": "Run",
     "Application.MyOperators.executor": "Run",
     "Application.MyTasks.executor": "Run",
+    "Application.SteamAPI.executor": "Run",
     "Application.Test (1).executor": "Run",
     "Application.Test (2).executor": "Run",
     "Application.Test (3).executor": "Run",
@@ -82,6 +86,9 @@
     "Application.TestComputer (5).executor": "Run",
     "Application.TestComputer.executor": "Run",
     "Application.TestCreditCard.executor": "Run",
+    "Application.TestHomework (1).executor": "Run",
+    "Application.TestHomework.executor": "Run",
+    "Application.TestIPAddress.executor": "Run",
     "Application.TestPhone (1).executor": "Run",
     "Application.TestPhone (2).executor": "Run",
     "Application.TestPhone (3).executor": "Run",
@@ -100,6 +107,7 @@
     "Application.lesson3.operators.MyOperators.executor": "Run",
     "Application.lesson5.multidimensional_array.MyMain.executor": "Run",
     "Application.lesson7_oop.clinic.TestClinic.executor": "Run",
+    "Application.lesson8_oop_interfaces.classwork.MyMain.executor": "Run",
     "Application.lesson8_oop_interfaces.hw_task_2_workers.MyMain.executor": "Run",
     "Application.lesson8_oop_interfaces.hw_task_3_documents.MyMain.executor": "Run",
     "Application.lesson9_interfaces_exceptions.MyMain.executor": "Run",
@@ -131,13 +139,13 @@
       <recent name="lesson6.methods_oop.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson10_excep_strings.homework.MyMain">
-    <configuration name="Credentials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson9_interfaces_exceptions.homework.Credentials" />
+  <component name="RunManager" selected="Application.SteamAPI">
+    <configuration name="SteamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.SteamAPI" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson9_interfaces_exceptions.homework.*" />
+          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson10_excep_strings.homework.MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson10_excep_strings.homework.MyMain" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.Test" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson10_excep_strings.homework.*" />
+          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson8_oop_interfaces.hw_task_2_workers.MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson8_oop_interfaces.hw_task_2_workers.MyMain" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.Test" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson8_oop_interfaces.hw_task_2_workers.*" />
+          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson8_oop_interfaces.hw_task_3_documents.MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson8_oop_interfaces.hw_task_3_documents.MyMain" />
+    <configuration name="TestHomework (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.TestHomework" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson8_oop_interfaces.hw_task_3_documents.documents.*" />
+          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson9_interfaces_exceptions.homework.MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson9_interfaces_exceptions.homework.MyMain" />
+    <configuration name="TestIPAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.TestIPAddress" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson9_interfaces_exceptions.homework.*" />
+          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lesson10_excep_strings.homework.MyMain" />
-        <item itemvalue="Application.lesson9_interfaces_exceptions.homework.MyMain" />
-        <item itemvalue="Application.Credentials" />
-        <item itemvalue="Application.lesson8_oop_interfaces.hw_task_3_documents.MyMain" />
-        <item itemvalue="Application.lesson8_oop_interfaces.hw_task_2_workers.MyMain" />
+        <item itemvalue="Application.SteamAPI" />
+        <item itemvalue="Application.TestIPAddress" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestHomework (1)" />
       </list>
     </recent_temporary>
   </component>
