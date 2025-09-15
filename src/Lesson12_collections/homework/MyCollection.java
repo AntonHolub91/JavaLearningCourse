@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class MyCollection {
     int length;
     String type;
-    int[] intArray;
-    String[] stringArray;
-    boolean[] booleanArray;
+    private int[] intArray;
+    private String[] stringArray;
+    private boolean[] booleanArray;
 
     public MyCollection() {
         this.length = 5;

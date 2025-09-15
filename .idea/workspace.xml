@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
-      <change afterPath="$PROJECT_DIR$/src/Lesson12_collections/homework/MyCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson12_collections/homework/MyCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson12_collections/homework/MyCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,38 +142,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.TestMyCollection">
-    <configuration name="TestMyCollection (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson12_collections.homework.TestMyCollection" />
+    <configuration name="MyMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyMain" />
       <module name="JavaLearningCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson12_collections.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyCollection (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson12_collections.homework.TestMyCollection" />
+    <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8_oop_interfaces.hw_task_2_workers.MyMain" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson12_collections.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMyCollection (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson12_collections.homework.TestMyCollection" />
-      <module name="JavaLearningCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson12_collections.homework.*" />
+          <option name="PATTERN" value="lesson8_oop_interfaces.hw_task_2_workers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,13 +188,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
+      <module name="JavaLearningCourse" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestMyCollection" />
+        <item itemvalue="Application.MyMain (1)" />
+        <item itemvalue="Application.MyMain" />
+        <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.TestMyCollection (4)" />
-        <item itemvalue="Application.TestMyCollection (3)" />
-        <item itemvalue="Application.TestMyCollection (2)" />
-        <item itemvalue="Application.TestMyCollection (1)" />
       </list>
     </recent_temporary>
   </component>
