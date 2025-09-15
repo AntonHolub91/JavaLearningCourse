@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871fc47c-9644-4751-ba35-1543cd210e96" name="Changes" comment="Lesson 4 homework">
-      <change afterPath="$PROJECT_DIR$/src/lesson11_str_regex/homework/IPAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11_str_regex/homework/SteamAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12_collections/homework/MyCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/BMW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson8_oop_interfaces/classwork/MyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +84,12 @@
     "Application.TestHomework (1).executor": "Run",
     "Application.TestHomework.executor": "Run",
     "Application.TestIPAddress.executor": "Run",
+    "Application.TestMyCollection (1).executor": "Run",
+    "Application.TestMyCollection (2).executor": "Run",
+    "Application.TestMyCollection (3).executor": "Run",
+    "Application.TestMyCollection (4).executor": "Run",
+    "Application.TestMyCollection (5).executor": "Run",
+    "Application.TestMyCollection.executor": "Run",
     "Application.TestPhone (1).executor": "Run",
     "Application.TestPhone (2).executor": "Run",
     "Application.TestPhone (3).executor": "Run",
@@ -139,13 +140,13 @@
       <recent name="lesson6.methods_oop.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SteamAPI">
-    <configuration name="SteamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.SteamAPI" />
+  <component name="RunManager" selected="Application.TestMyCollection">
+    <configuration name="TestMyCollection (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12_collections.homework.TestMyCollection" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
+          <option name="PATTERN" value="Lesson12_collections.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.Test" />
+    <configuration name="TestMyCollection (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12_collections.homework.TestMyCollection" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
+          <option name="PATTERN" value="Lesson12_collections.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.Test" />
+    <configuration name="TestMyCollection (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12_collections.homework.TestMyCollection" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
+          <option name="PATTERN" value="Lesson12_collections.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomework (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.TestHomework" />
+    <configuration name="TestMyCollection (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12_collections.homework.TestMyCollection" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
+          <option name="PATTERN" value="Lesson12_collections.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIPAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson11_str_regex.homework.TestIPAddress" />
+    <configuration name="TestMyCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12_collections.homework.TestMyCollection" />
       <module name="JavaLearningCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson11_str_regex.homework.*" />
+          <option name="PATTERN" value="Lesson12_collections.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SteamAPI" />
-        <item itemvalue="Application.TestIPAddress" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestHomework (1)" />
+        <item itemvalue="Application.TestMyCollection" />
+        <item itemvalue="Application.TestMyCollection (4)" />
+        <item itemvalue="Application.TestMyCollection (3)" />
+        <item itemvalue="Application.TestMyCollection (2)" />
+        <item itemvalue="Application.TestMyCollection (1)" />
       </list>
     </recent_temporary>
   </component>
